@@ -33,7 +33,7 @@ const Checkout = () => {
           );
         })
       }
-      <span className='total'>Total: ${cartTotal}</span>
+      <span className='total'>Total: ${cartTotal.toFixed(2)}</span>
     </div>
   );
 };
